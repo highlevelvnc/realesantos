@@ -15,11 +15,14 @@ export default function About() {
           <div className="relative lg:col-span-5" data-reveal="left">
             <div className="relative aspect-[4/5] overflow-hidden bg-graphite-200">
               <Image
-                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=85"
-                alt="Reale & Santos — obra"
+                src="/obra-fachada-2.jpg"
+                alt={lang === "pt"
+                  ? "Reale & Santos — execução de fachada ventilada em obra"
+                  : "Reale & Santos — ejecución de fachada ventilada en obra"}
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
-                className="object-cover"
+                quality={85}
+                className="object-cover [object-position:50%_40%]"
               />
               <span className="absolute inset-0 ring-1 ring-inset ring-bone/10" />
               <span className="absolute left-0 top-0 h-20 w-20 border-l-2 border-t-2 border-copper" />

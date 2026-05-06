@@ -116,7 +116,8 @@ function ProjectCard({
         alt={project.title}
         fill
         sizes="(min-width: 1024px) 50vw, 100vw"
-        className="project-img object-cover"
+        quality={82}
+        className="project-img object-cover [object-position:50%_45%]"
       />
       <span className="absolute inset-0 bg-gradient-to-t from-ink/95 via-ink/45 to-ink/10" />
       <span className="absolute inset-x-0 bottom-0 h-px origin-left scale-x-0 bg-copper transition-transform duration-700 ease-out group-hover:scale-x-100" />

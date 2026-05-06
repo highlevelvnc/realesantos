@@ -66,12 +66,13 @@ export default function Hero() {
         className="parallax-target absolute inset-0 -top-12 -bottom-12 will-change-transform"
       >
         <Image
-          src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=2400&q=85"
+          src="/obra-fachada-1.jpg"
           alt=""
           fill
           priority
           sizes="100vw"
-          className="object-cover opacity-50"
+          quality={85}
+          className="object-cover opacity-55 [object-position:50%_55%]"
         />
       </div>
 

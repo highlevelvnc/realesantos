@@ -12,11 +12,12 @@ export default function FinalCTA() {
   return (
     <section id="contact" className="relative isolate overflow-hidden bg-ink">
       <Image
-        src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=2200&q=85"
+        src="/obra-fachada-1.jpg"
         alt=""
         fill
         sizes="100vw"
-        className="object-cover opacity-25"
+        quality={80}
+        className="object-cover object-center opacity-25"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-ink via-ink/85 to-ink" />
       <div className="absolute inset-0 bg-tech-grid bg-grid-80 opacity-[0.10]" />

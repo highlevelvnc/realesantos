@@ -167,7 +167,7 @@ const pt: Dict = {
       {
         title: "Cofragem de vivenda em Madrid",
         category: "Estrutura · Cofragem",
-        img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+        img: "/obra-residencial.jpg",
       },
       {
         title: "Hormigonagem de rampa e instalação de plaquetas",
@@ -182,12 +182,12 @@ const pt: Dict = {
       {
         title: "Fachada ventilada",
         category: "Envolvente · Sistema técnico",
-        img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+        img: "/obra-fachada-1.jpg",
       },
       {
         title: "Sistema de isolamento térmico e acústico",
         category: "Conforto · Eficiência",
-        img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1600&q=80",
+        img: "/obra-fachada-2.jpg",
       },
     ],
   },
@@ -361,7 +361,7 @@ const es: Dict = {
       {
         title: "Encofrado de vivienda en Madrid",
         category: "Estructura · Encofrado",
-        img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80",
+        img: "/obra-residencial.jpg",
       },
       {
         title: "Hormigonado de rampa e instalación de plaquetas",
@@ -376,12 +376,12 @@ const es: Dict = {
       {
         title: "Fachada ventilada",
         category: "Envolvente · Sistema técnico",
-        img: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+        img: "/obra-fachada-1.jpg",
       },
       {
         title: "Sistema de aislamiento térmico y acústico",
         category: "Confort · Eficiencia",
-        img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=1600&q=80",
+        img: "/obra-fachada-2.jpg",
       },
     ],
   },
